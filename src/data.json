@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "user1@example.com",
+      "password": "password1",
+      "balance": 500,
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "email": "admin@example.com",
+      "password": "admin123",
+      "balance": 1000,
+      "role": "admin"
+    }
+  ],
+  "transactions": [
+    {
+      "id": 1,
+      "userId": 1,
+      "amount": 100,
+      "status": "completed",
+      "date": "2024-01-15"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "amount": 200,
+      "status": "pending",
+      "date": "2024-01-20"
+    }
+  ]
+}
